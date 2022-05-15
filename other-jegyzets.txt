@@ -1,0 +1,10 @@
+Databinding: (=communication):
+	Output Data:
+		- String interpolation - {{ data }}
+		- Property binding - [property] = "data"
+
+	React to (User) Events:
+		- Event binding (event) = "expression"
+
+	Combination of Both:
+		- Two-Way-Binding [(ngModel)] = "data"
