@@ -1,10 +1,23 @@
 Databinding: (=communication):
 	Output Data:
-		- String interpolation - {{ data }}
-		- Property binding - [property] = "data"
+		A) String interpolation - {{ data }}
+		B) Property binding - [property] = "data"
 
 	React to (User) Events:
-		- Event binding (event) = "expression"
+		C) Event binding (event) = "expression"
 
 	Combination of Both:
-		- Two-Way-Binding [(ngModel)] = "data"
+		D) Two-Way-Binding [(ngModel)] = "data"
+
+A): string-interpolation-server
+minden output string lesz a curly bracesben, nem lehet block expression, multi line expression, for, if...
+Ternary mehet!
+
+A) és B): sokszor használható egymás helyett
+
+B): servers buttonja, .ts-ben a kód hozzá, ami módosít
+
+A) vs B):
+ha outputolni akarok vmit a templateben, vmi textet printelni, akkor A)
+ha vmi propertyt akarok változtatni (HTML element or directive or component), akkor B)
+DONT MIX A) and B)
