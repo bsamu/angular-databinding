@@ -21,3 +21,5 @@ A) vs B):
 ha outputolni akarok vmit a templateben, vmi textet printelni, akkor A)
 ha vmi propertyt akarok változtatni (HTML element or directive or component), akkor B)
 DONT MIX A) and B)
+
+C) servers buttonon + .ts a hívott function
